@@ -70,9 +70,9 @@ global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://te
 
 
 
-global.devs = "254710772666,254739937062" // Developer Contact
+global.devs = "2348141877822" // Developer Contact
 global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "254710772666,254739937062";
-global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "254710772666,254739937062";
+global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "2348141877822";
 
 
 
@@ -106,7 +106,7 @@ global.api_smd = "https://api-smd.onrender.com" //  || "https://api-smd-1.vercel
 global.scan = "https://black-panther-scanner-871df7205958.herokuapp.com/";
 
 
-global.SESSION_ID = process.env.SESSION_ID ||  "" ; // PUT your SESSION_ID 
+global.SESSION_ID = process.env.SESSION_ID ||  "PANTHER;;;eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoidUNyNjVNcXdJczZtR29ERVN6VEFIdlo0bThNRVhaY2FyZTAycDBrcitsOD0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoidHlpV0trMjFmb1VDdHpPT3VYT2xOMW9xUk1EQlAxYWc5TGVpdW5VVzRGYz0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJxTGdWVDgrT3AxWms4dEJDK01IM2JCMnVsUDVuWDBKYUVNMWxDTmJxRmxRPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJFTktJdGxZOWtJSHJZRi8vQmZOeG44Sm5Xc1ZtY3JhdS8wK1VrRU1qOUNFPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IlFCdjFSNjVpTG1ROEFOcXY1eXFjVUdJbWtyMEVtT0tTbTVDVGN1VCt1WDQ9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkViNUxVS3F2REUzOVF4ZDJXZ2h2Z3o1V01TQkFkTEl0S0IySlNIMTk3UTg9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiVURiMTVvUmU3RWp2K25ienUvNElCTHN6Sm9oZmRxeFRTM2xLNWwyTERHVT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQTRLdDJ6UWVpbUlwb1U2MGE2WkFVYkFzRTZlcDhld1kwSS9PeTdVUituVT0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IlVDMlBBam9IYmk1TFJNNEYrcVVsMVRkQyt1UE8xdXVtNEowS0xHaHJud2UzQVFmYUhKRnRkRzR4THYvU3dUMjZ1dFN3dlV5R3YvUldzV2QwbElXSGh3PT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MjM4LCJhZHZTZWNyZXRLZXkiOiJzMkZTRDRGMHRaUjVnYmkxTmdjb0x6NGJlT0RNN1RXK3ZGa1BuTFc3QS9nPSIsInByb2Nlc3NlZEhpc3RvcnlNZXNzYWdlcyI6W10sIm5leHRQcmVLZXlJZCI6MzEsImZpcnN0VW51cGxvYWRlZFByZUtleUlkIjozMSwiYWNjb3VudFN5bmNDb3VudGVyIjowLCJhY2NvdW50U2V0dGluZ3MiOnsidW5hcmNoaXZlQ2hhdHMiOmZhbHNlfSwiZGV2aWNlSWQiOiI5ZkpVaFQzS1M5Q1VoRlFBRmZGWFBRIiwicGhvbmVJZCI6IjNiMTRjOGFkLWVmZmItNGI1ZS1hNGE3LTUwOWJhOWE3NjU2NSIsImlkZW50aXR5SWQiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiIyTSs0TWNETyszazA0Y1pPdWVTOG45cnlxTFk9In0sInJlZ2lzdGVyZWQiOnRydWUsImJhY2t1cFRva2VuIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiY0V3eEEvODFhWUdjZHY5VHpCNFk0aGs0d1Y4PSJ9LCJyZWdpc3RyYXRpb24iOnt9LCJwYWlyaW5nQ29kZSI6IkYyWk5NMkNRIiwibWUiOnsiaWQiOiIyMzQ4MTQxODc3ODIyOjJAcy53aGF0c2FwcC5uZXQifSwiYWNjb3VudCI6eyJkZXRhaWxzIjoiQ01pTTFLWUJFTDc2aHJNR0dBSWdBQ2dBIiwiYWNjb3VudFNpZ25hdHVyZUtleSI6ImNBUTdzYnNWZUlCaHIvWmdXcHZNOHJuN1EranhvTW1za3BnbDRSRXhWR2c9IiwiYWNjb3VudFNpZ25hdHVyZSI6IkIxS2paM3lLRHUvS3BpUHk4OGZSTGJJOXpUKy9ubDhZRHh3cVFZUTcwd1hyME9xTmw4c2F1TkEvalRmUFgzN0V1d1ZGWll6aWk0ajZmakZ1VitKSkRnPT0iLCJkZXZpY2VTaWduYXR1cmUiOiJlQW9raXpiV3liRVYvTi9CcGxVSUx5aG80Ty81QkRNT00xOVVrc1dTd2wrNnFwVjA1VFVaOHFFU0xYMW8wcTBoaVdPbmFndHBSaDRGMFlYS0ZKU25nUT09In0sInNpZ25hbElkZW50aXRpZXMiOlt7ImlkZW50aWZpZXIiOnsibmFtZSI6IjIzNDgxNDE4Nzc4MjI6MkBzLndoYXRzYXBwLm5ldCIsImRldmljZUlkIjowfSwiaWRlbnRpZmllcktleSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkJYQUVPN0c3RlhpQVlhLzJZRnFielBLNSswUG84YURKckpLWUplRVJNVlJvIn19XSwicGxhdGZvcm0iOiJhbmRyb2lkIiwibGFzdEFjY291bnRTeW5jVGltZXN0YW1wIjoxNzE3NjgxNDgzLCJteUFwcFN0YXRlS2V5SWQiOiJBQUFBQUFQZyJ9" ; // PUT your SESSION_ID 
 
 
 module.exports = {
@@ -121,7 +121,7 @@ module.exports = {
   author : process.env.PACK_AUTHER|| "Pᵒʷᵉʳᵉᵈ ᵇʸ Iᵇʳᵃʰⁱᵐ Aᵈᵃᵐˢ",
   packname: process.env.PACK_NAME || "Pᵒʷᵉʳᵉᵈ ᵇʸ Iᵇʳᵃʰⁱᵐ Aᵈᵃᵐˢ",
   botname : process.env.BOT_NAME  || "𝙋𝘼𝙉𝙏𝙃𝙀𝙍 𝙈𝘿",
-  ownername:process.env.OWNER_NAME|| "𝑰𝒃𝒓𝒂𝒉𝒊𝒎 𝑨𝒅𝒂𝒎𝒔",
+  ownername:process.env.OWNER_NAME|| "Chukwujekwu Stephen ",
 
 
   errorChat : process.env.ERROR_CHAT || "",
